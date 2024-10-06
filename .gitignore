@@ -1,63 +1,42 @@
-# Built application files
-*.apk
-*.ap_
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
 
-# Java class files
-*.class
-
-# Java archives
-*.jar
-*.war
-*.ear
-
-# Gradle files
-.gradle/
-build/
-outputs/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# IDE specific files
-*.idea/
-*.iml
-*.hprof
-
-# User-specific configurations
+# Optional: Logs
+logs
 *.log
-*.DS_Store
-*.user
+pids
+*.pid
+*.seed
+*.gz
 
-# Android Studio specific files
-*.jks
-*.keystore
-captures/
-.externalNativeBuild/
-.cxx/
-*.so
-*.dylib
+# Optional: Runtime data
+pids
+*.pid
+*.seed
+*.gz
 
-# Firebase files
-google-services.json
+# Optional: dotenv environment variables file
+.env
 
-# Android Studio Gradle cache
-.gradle/
+# Optional: Built files
+dist/
+build/
+coverage/
 
-# Other files and directories to ignore
+# Optional: IDE specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional: System files
+.sass-cache
 *.swp
 *.swo
-*.tmp
-*.temp
-*.bak
-*.orig
-*~
-*.orig
-*.log
-*.class
-*.jar
-*.war
-*.ear
-*.db
+*.swn
 
-# Ignore .env files (for sensitive information)
-.env
+# Optional: Typescript
+*.tsbuildinfo
